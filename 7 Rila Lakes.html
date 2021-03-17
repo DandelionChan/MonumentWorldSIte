@@ -84,7 +84,11 @@
 
     </i>
 
-    <img src="images/Bulgaria/7 Rila Lakes3.jpg" class="imgbottom1">
+    <img src="images/Bulgaria/7 Rila Lakes3.jpg" class="imgbottom1" id="Rila1">
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="imgexp">
+      </div>
 
     <img src="images/Bulgaria/7 Rila Lakes5.jpg" class="imgbottom1">
 
@@ -121,5 +125,17 @@
         document.documentElement.scrollTop = 0;
     }
 </script>
-
+<script>
+    var modal = document.getElementById("myModal");
+    var img = document.getElementById("Rila1");
+    var modalImg = document.getElementById("imgexp");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+    }
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
 </html>
