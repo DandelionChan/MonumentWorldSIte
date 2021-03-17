@@ -202,9 +202,6 @@ h1{
     .next:hover{
         display: none;
     }
-    .numbertext{
-        display: none;
-    }
     .row:after{
         display: none;
     }
@@ -319,9 +316,6 @@ h1{
     }
     .prev:hover,
       .next:hover{
-          display: none;
-      }
-      .numbertext{
           display: none;
       }
       .row:after{
@@ -474,14 +468,6 @@ h1{
         background-color: #67c8db;
         display: block;
       }
-      .numbertext {
-        color: #f2f2f2;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-        display: block;
-      }
       .row:after {
         content: "";
         display: table;
@@ -515,6 +501,19 @@ h1{
         white-space: nowrap;
         display: block;
       }
+      #pinE {
+          width: 1.1vw;
+          height: 1.1vw;
+          position: absolute;
+          top: 27vw;
+          right: 43.6vw;
+          transition: transform .2s;
+      }
+      #pinE:hover {
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
+        transform: scale(1.5);
+      }
 .modal {
     display: none;
     position: fixed;
@@ -529,11 +528,12 @@ h1{
     background-color: rgba(0,0,0,0.9);
   }
   .modal-content {
-    margin-top: 10vw;
-    margin-left: 13vw;
+    margin-top: 5vw;
+    margin-left: 20vw;
     display: block;
     width: 80%;
-    max-width: 1111px;
+    height: 30vw;
+    max-width: 1110px;
   }
   .modal-content{  
     -webkit-animation-name: zoom;
