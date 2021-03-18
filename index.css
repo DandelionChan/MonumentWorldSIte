@@ -392,7 +392,7 @@ h1{
         width: 30vw; 
         height: 25vw;
         padding: 1vw;
-        cursor: pointer;
+        cursor: zoom-in;
         transition: 0.3s;
     }
     .imgbottom1:hover{
