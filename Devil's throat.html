@@ -79,11 +79,23 @@
             посетили забележителността</p>
     </i>
 
-    <img src="images/Bulgaria/caveD4.jpg" class="imgbottom1">
+    <img src="images/Bulgaria/caveD4.jpg" class="imgbottom1" id="Devil">
 
-    <img src="images/Bulgaria/caveD6.jpg" class="imgbottom1">
+    <img src="images/Bulgaria/caveD6.jpg" class="imgbottom1" id="Devil1">
 
-    <img src="images/Bulgaria/caveD7.jpg" class="imgbottom1">
+    <img src="images/Bulgaria/caveD7.jpg" class="imgbottom1" id="Devil2">
+    <div id="myModal7" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="imgexp7">
+    </div>
+    <div id="myModal8" class="modal">
+        <span class="close close1">&times;</span>
+        <img class="modal-content" id="imgexp8">
+    </div>
+    <div id="myModal9" class="modal">
+        <span class="close close2">&times;</span>
+        <img class="modal-content" id="imgexp9">
+    </div>
     <iframe src="https://www.jigsawplanet.com/?rc=play&amp;pid=39774a3ea15e&amp;view=iframe"
         class="puzzle" frameborder=0 allowfullscreen></iframe>
 </body>
@@ -116,5 +128,39 @@
         document.documentElement.scrollTop = 0;
     }
 </script>
-
+<script>
+    var modal = document.getElementById("myModal7");
+    var img = document.getElementById("Devil");
+    var modalImg = document.getElementById("imgexp7");
+    img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    }
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    var modal1 = document.getElementById("myModal8");
+    var img1 = document.getElementById("Devil1");
+    var modalImg1 = document.getElementById("imgexp8");
+    img1.onclick = function () {
+        modal1.style.display = "block";
+        modalImg1.src = this.src;
+    }
+    var span = document.getElementsByClassName("close1")[0];
+    span.onclick = function () {
+        modal1.style.display = "none";
+    }
+    var modal2 = document.getElementById("myModal9");
+    var img2 = document.getElementById("Devil2");
+    var modalImg2 = document.getElementById("imgexp9");
+    img2.onclick = function () {
+        modal2.style.display = "block";
+        modalImg2.src = this.src;
+    }
+    var span = document.getElementsByClassName("close2")[0];
+    span.onclick = function () {
+        modal2.style.display = "none";
+    }
+</script>
 </html>
