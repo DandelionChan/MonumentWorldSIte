@@ -481,6 +481,19 @@ h1{
         -webkit-transform: scale(1.5); 
         transform: scale(1.5);
       }
+      #pinE2 {
+        width: 1.1vw;
+        height: 1.1vw;
+        position: absolute;
+        top: 20vw;
+        right: 55.5vw;
+        transition: transform .2s;
+    }
+      #pinE2:hover {
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
+        transform: scale(1.5);
+      }
       #pinAs {
         width: 1.1vw;
         height: 1.1vw;
@@ -520,6 +533,19 @@ h1{
         -webkit-transform: scale(1.5); 
         transform: scale(1.5);
       }
+      #pinOc {
+        width: 1.3vw;
+        height: 1.3vw;
+        position: absolute;
+        top: 21vw;
+        right: 65vw;
+        transition: transform .2s;
+        }
+       #pinOc:hover {
+        -ms-transform: scale(1.5); 
+        -webkit-transform: scale(1.5); 
+        transform: scale(1.5);
+       }
 .modal {
     display: none;
     position: fixed;
