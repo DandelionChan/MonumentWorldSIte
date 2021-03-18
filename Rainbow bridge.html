@@ -14,10 +14,10 @@
 
 <body>
     <button onclick="topFunction()" id="myBtn" title="Към началото"><svg xmlns="http://www.w3.org/2000/svg" width="22"
-        height="22" fill="currentColor" viewBox="0 0 16 16">
-        <path fill-rule="evenodd"
-            d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-    </svg></button>
+            height="22" fill="currentColor" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+        </svg></button>
     <header>
         <img src="images/Maps/RainbowC.jpg" class="headimg">
         <div class="title"><b><i>Мостът на дъгата</i></b></div>
@@ -66,12 +66,25 @@
             – споделят хора посетили моста</p>
     </i>
 
-    <img src="images/Japan/rainbow5.jpg" class="imgbottom1">
+    <img src="images/Japan/rainbow5.jpg" class="imgbottom1" id="katedral">
 
-    <img src="images/Japan/rainbow3.jpg" class="imgbottom1">
+    <img src="images/Japan/rainbow3.jpg" class="imgbottom1" id="katedral1">
 
-    <img src="images/Japan/rainbow4.jpg" class="imgbottom1">
-
+    <img src="images/Japan/rainbow4.jpg" class="imgbottom1" id="katedral2">
+    <div id="myModal10" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="imgexp10">
+    </div>
+    <div id="myModal11" class="modal">
+        <span class="close close1">&times;</span>
+        <img class="modal-content" id="imgexp11">
+    </div>
+    <div id="myModal12" class="modal">
+        <span class="close close2">&times;</span>
+        <img class="modal-content" id="imgexp12">
+    </div>
+    <iframe src="https://www.jigsawplanet.com/?rc=play&amp;pid=1bdc10ee58e1&amp;view=iframe"
+        style="width:100%;height:600px" frameborder=0 allowfullscreen></iframe>
 </body>
 <script>
     var index = 0;
@@ -102,5 +115,39 @@
         document.documentElement.scrollTop = 0;
     }
 </script>
-
+<script>
+    var modal = document.getElementById("myModal10");
+    var img = document.getElementById("katedral");
+    var modalImg = document.getElementById("imgexp10");
+    img.onclick = function () {
+        modal.style.display = "block";
+        modalImg.src = this.src;
+    }
+    var span = document.getElementsByClassName("close")[0];
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+    var modal1 = document.getElementById("myModal11");
+    var img1 = document.getElementById("katedral1");
+    var modalImg1 = document.getElementById("imgexp11");
+    img1.onclick = function () {
+        modal1.style.display = "block";
+        modalImg1.src = this.src;
+    }
+    var span = document.getElementsByClassName("close1")[0];
+    span.onclick = function () {
+        modal1.style.display = "none";
+    }
+    var modal2 = document.getElementById("myModal12");
+    var img2 = document.getElementById("katedral2");
+    var modalImg2 = document.getElementById("imgexp12");
+    img2.onclick = function () {
+        modal2.style.display = "block";
+        modalImg2.src = this.src;
+    }
+    var span = document.getElementsByClassName("close2")[0];
+    span.onclick = function () {
+        modal2.style.display = "none";
+    }
+</script>
 </html>
