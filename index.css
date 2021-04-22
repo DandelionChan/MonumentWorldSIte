@@ -566,8 +566,6 @@ h1{
     width: 80%;
     height: 30vw;
     max-width: 1110px;
-  }
-  .modal-content{  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
