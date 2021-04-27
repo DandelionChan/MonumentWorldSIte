@@ -1,0 +1,43 @@
+<html lang="en-US">
+
+<head>
+  <title>Светът на забележителностите</title>
+  <meta charset="utf-8" />
+  <meta name="keywords" content="забележителности, светът на забележителностите, световни забележителности" />
+  <meta name="description" content="Страницата отвежда читателите в разнообразния свят на природното и създаденото от човека 
+    наследство, от миналото, настоящето и представящи бъдещето." />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link type="text/css" rel="stylesheet" href="index.css">
+  <script type='text/javascript'
+    src='https://platform-api.sharethis.com/js/sharethis.js#property=6086f33bf122660018d4f966&product=sticky-share-buttons'
+    async='async'></script>
+</head>
+
+<body>
+
+  <a href="viber://forward?text=https://worldsights.bg.cm">
+    <i>Viber</i>
+  </a>
+  <button onclick="copyToClipboard()" id="copy">Copy Link</button>
+
+  <script>
+    function copyToClipboard(text) {
+      var inputc = document.body.appendChild(document.createElement("input"));
+      inputc.value = window.location.href;
+      inputc.focus();
+      inputc.select();
+      document.execCommand('copy');
+      inputc.parentNode.removeChild(inputc);
+      var x = document.getElementById("copy");
+      if (x.innerHTML === "Copy Link") {
+        x.innerHTML = "Copied";
+      } else {
+        x.innerHTML = "Copy Link";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
