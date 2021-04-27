@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+var $temp = $("<input>");
+var $url = $(location).attr('href');
+$('#btn').click(function() {
+$("body").append($temp);
+$temp.val($url).select();
+document.execCommand("copy");
+$temp.remove();
+$("p").text("URL copied!");
+});
+});
+</script>
+</head>
+<body>
+<p></p>
+<input id="btn" type="button" value="Copy Link" />
+</body>
+</html>
