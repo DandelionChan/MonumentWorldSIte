@@ -149,6 +149,7 @@ h1{
     }
     .subsight{
         font-size: 3.5vw;
+        text-align: left;
     }
     img{
         width: 41vw;
@@ -253,6 +254,7 @@ h1{
     }
     .subsight{
         font-size: 2.5vw;
+        text-align: left;
     }
     img{
         width: 29vw;
@@ -361,6 +363,7 @@ h1{
     }
     .subsight{
     font-size: 1.2vw;
+    text-align: left;
     }
     img{
     width: 23vw;
