@@ -458,97 +458,17 @@ h1{
         white-space: nowrap;
         display: block;
       }
-      #pinE {
+      #pin{
           width: 1.1vw;
           height: 1.1vw;
           position: absolute;
-          top: 27vw;
-          right: 43.6vw;
           transition: transform .2s;
       }
-      #pinE:hover {
+      #pin:hover {
         -ms-transform: scale(1.5); 
         -webkit-transform: scale(1.5); 
         transform: scale(1.5);
       }
-      #pinE1 {
-        width: 1.1vw;
-        height: 1.1vw;
-        position: absolute;
-        top: 30vw;
-        right: 46.25vw;
-        transition: transform .2s;
-    }
-      #pinE1:hover {
-        -ms-transform: scale(1.5); 
-        -webkit-transform: scale(1.5); 
-        transform: scale(1.5);
-      }
-      #pinE2 {
-        width: 1.1vw;
-        height: 1.1vw;
-        position: absolute;
-        top: 20vw;
-        right: 55.5vw;
-        transition: transform .2s;
-    }
-      #pinE2:hover {
-        -ms-transform: scale(1.5); 
-        -webkit-transform: scale(1.5); 
-        transform: scale(1.5);
-      }
-      #pinAs {
-        width: 1.1vw;
-        height: 1.1vw;
-        position: absolute;
-        top: 23.2vw;
-        right: 47.7vw;
-        transition: transform .2s;
-        }
-       #pinAs:hover {
-        -ms-transform: scale(1.5); 
-        -webkit-transform: scale(1.5); 
-        transform: scale(1.5);
-      }
-      #pinAs1 {
-        width: 1.1vw;
-        height: 1.1vw;
-        position: absolute;
-        top: 14.8vw;
-        right: 34.1vw;
-        transition: transform .2s;
-        }
-       #pinAs1:hover {
-        -ms-transform: scale(1.5); 
-        -webkit-transform: scale(1.5); 
-        transform: scale(1.5);
-      }
-      #pinAs2 {
-        width: 1.1vw;
-        height: 1.1vw;
-        position: absolute;
-        top: 21vw;
-        right: 56vw;
-        transition: transform .2s;
-        }
-       #pinAs2:hover {
-        -ms-transform: scale(1.5); 
-        -webkit-transform: scale(1.5); 
-        transform: scale(1.5);
-      }
-      #pinOc {
-        width: 1.3vw;
-        height: 1.3vw;
-        position: absolute;
-        top: 21vw;
-        right: 65vw;
-        transition: transform .2s;
-        }
-       #pinOc:hover {
-        -ms-transform: scale(1.5); 
-        -webkit-transform: scale(1.5); 
-        transform: scale(1.5);
-       }
 .modal {
     display: none;
     position: fixed;
