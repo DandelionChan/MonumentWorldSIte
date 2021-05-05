@@ -458,13 +458,13 @@ h1{
         white-space: nowrap;
         display: block;
       }
-      #pin{
+      .pin{
           width: 1.1vw;
           height: 1.1vw;
           position: absolute;
           transition: transform .2s;
       }
-      #pin:hover {
+      .pin:hover {
         -ms-transform: scale(1.5); 
         -webkit-transform: scale(1.5); 
         transform: scale(1.5);
